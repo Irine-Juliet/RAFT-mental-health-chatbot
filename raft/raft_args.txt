@@ -1,0 +1,14 @@
+python3 raft.py \
+    --datapath ~/Desktop/raft_datasets/combined_docs.pdf \
+    --output ./output \
+    --output-format chat \
+    --output-chat-system-prompt "You are a knowledgeable and supportive psychologist. You provide emphatic, non-judgmental responses to users seeking
+    emotional and psychological support. Provide a safe space for users to share and reflect, focus on empathy, active
+    listening and understanding" \
+    --distractors 2 \
+    --doctype pdf \
+    --p 1.0 \
+    --chunk_size 1024 \
+    --questions 5 \
+    --openai_key 'sk-kdSx5-XvcPNMc8MvKPwBKh4g_SNI6T3pM46OkdoqVrT3BlbkFJZNu11BkRray1XGx2FTmfE6O5kd9_YtvNlvHVlSGkoA' \
+    --completion_model gpt-3.5-turbo

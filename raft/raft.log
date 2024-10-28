@@ -1,0 +1,874 @@
+2024-09-13 11:52:34,404  INFO [  0%] env_config Resolved OpenAI env vars with 'COMPLETION' prefix:
+2024-09-13 11:52:34,422  INFO [  0%] raft Using checkpoint chunks /Users/irinejuliet/Desktop/CPSC 490/gorilla/raft/therapy_conversation_dataset-checkpoints/chunks
+2024-09-13 11:52:34,423  INFO [  0%] raft Retrieving chunks from docs of type txt using the text-embedding-ada-002 model.
+2024-09-13 11:52:34,423  INFO [  0%] env_config Resolved OpenAI env vars with 'EMBEDDING' prefix:
+2024-09-13 11:52:34,480  INFO [  0%] raft Using system prompt key gpt
+2024-09-13 11:52:34,480  INFO [  0%] raft Using 2 worker threads
+2024-09-13 12:00:44,046  INFO [  0%] env_config Resolved OpenAI env vars with 'COMPLETION' prefix:
+2024-09-13 12:00:44,064  INFO [  0%] raft Using checkpoint chunks /Users/irinejuliet/Desktop/CPSC 490/gorilla/raft/therapy_conversation_dataset-checkpoints/chunks
+2024-09-13 12:00:44,070  INFO [  0%] raft Retrieving chunks from docs/corey.pdf of type txt using the text-embedding-ada-002 model.
+2024-09-13 12:00:44,071  INFO [  0%] env_config Resolved OpenAI env vars with 'EMBEDDING' prefix:
+2024-09-13 12:16:32,607  INFO [  0%] env_config Resolved OpenAI env vars with 'COMPLETION' prefix:
+2024-09-13 12:16:32,607  INFO [  0%] env_config  - OPENAI_API_KEY=...........................................................................................GkoA
+2024-09-13 12:16:32,626  INFO [  0%] raft Using checkpoint chunks /Users/irinejuliet/Desktop/CPSC 490/gorilla/raft/therapy_conversation_dataset-checkpoints/chunks
+2024-09-13 12:16:32,635  INFO [  0%] raft Retrieving chunks from docs/corey.pdf of type txt using the text-embedding-ada-002 model.
+2024-09-13 12:16:32,635  INFO [  0%] env_config Resolved OpenAI env vars with 'EMBEDDING' prefix:
+2024-09-13 12:16:32,635  INFO [  0%] env_config  - OPENAI_API_KEY=...........................................................................................GkoA
+2024-09-13 12:18:57,051  INFO [  0%] env_config Resolved OpenAI env vars with 'COMPLETION' prefix:
+2024-09-13 12:18:57,051  INFO [  0%] env_config  - OPENAI_API_KEY=...........................................................................................GkoA
+2024-09-13 12:18:57,071  INFO [  0%] raft Using checkpoint chunks /Users/irinejuliet/Desktop/CPSC 490/gorilla/raft/therapy_conversation_dataset-checkpoints/chunks
+2024-09-13 12:18:57,078  INFO [  0%] raft Retrieving chunks from docs/corey.pdf of type txt using the text-embedding-ada-002 model.
+2024-09-13 12:18:57,078  INFO [  0%] env_config Resolved OpenAI env vars with 'EMBEDDING' prefix:
+2024-09-13 12:18:57,078  INFO [  0%] env_config  - OPENAI_API_KEY=...........................................................................................GkoA
+2024-09-13 12:35:43,137  INFO [  0%] env_config Resolved OpenAI env vars with 'COMPLETION' prefix:
+2024-09-13 12:35:43,137  INFO [  0%] env_config  - OPENAI_API_KEY=...........................................................................................GkoA
+2024-09-13 12:35:43,155  INFO [  0%] raft Using checkpoint chunks /Users/irinejuliet/Desktop/CPSC 490/gorilla/raft/therapy_conversation_dataset-checkpoints/chunks
+2024-09-13 12:35:43,162  INFO [  0%] raft Retrieving chunks from docs/corey.pdf of type pdf using the text-embedding-ada-002 model.
+2024-09-13 12:35:43,162  INFO [  0%] env_config Resolved OpenAI env vars with 'EMBEDDING' prefix:
+2024-09-13 12:35:43,162  INFO [  0%] env_config  - OPENAI_API_KEY=...........................................................................................GkoA
+2024-09-13 12:36:42,444  INFO [  0%] env_config Resolved OpenAI env vars with 'COMPLETION' prefix:
+2024-09-13 12:36:42,444  INFO [  0%] env_config  - OPENAI_API_KEY=...........................................................................................GkoA
+2024-09-13 12:36:42,463  INFO [  0%] raft Using checkpoint chunks /Users/irinejuliet/Desktop/CPSC 490/gorilla/raft/therapy_conversation_dataset-checkpoints/chunks
+2024-09-13 12:36:42,469  INFO [  0%] raft Retrieving chunks from docs/corey.pdf of type pdf using the text-embedding-ada-002 model.
+2024-09-13 12:36:42,469  INFO [  0%] env_config Resolved OpenAI env vars with 'EMBEDDING' prefix:
+2024-09-13 12:36:42,469  INFO [  0%] env_config  - OPENAI_API_KEY=...........................................................................................GkoA
+2024-09-13 12:37:23,619  INFO [  0%] env_config Resolved OpenAI env vars with 'COMPLETION' prefix:
+2024-09-13 12:37:23,619  INFO [  0%] env_config  - OPENAI_API_KEY=...........................................................................................GkoA
+2024-09-13 12:37:23,638  INFO [  0%] raft Using checkpoint chunks /Users/irinejuliet/Desktop/CPSC 490/gorilla/raft/therapy_conversation_dataset-checkpoints/chunks
+2024-09-13 12:37:23,645  INFO [  0%] raft Retrieving chunks from docs/corey.pdf of type pdf using the text-embedding-ada-002 model.
+2024-09-13 12:37:23,645  INFO [  0%] env_config Resolved OpenAI env vars with 'EMBEDDING' prefix:
+2024-09-13 12:37:23,645  INFO [  0%] env_config  - OPENAI_API_KEY=...........................................................................................GkoA
+2024-09-13 12:37:27,647  INFO [    ] openai._base_client Retrying request to /embeddings in 0.992295 seconds
+2024-09-13 12:37:28,878  INFO [    ] openai._base_client Retrying request to /embeddings in 1.792141 seconds
+2024-09-13 22:03:30,232  INFO [    ] raft Dataset has 11694 rows
+2024-09-13 22:03:30,233  INFO [    ] raft Converting arrow file therapy_conversation_dataset/data-00000-of-00001.arrow to jsonl completion file output.completion.jsonl
+2024-09-16 12:46:52,925  INFO [  0%] env_config Resolved OpenAI env vars with 'COMPLETION' prefix:
+2024-09-16 13:02:12,309  INFO [  0%] env_config Resolved OpenAI env vars with 'COMPLETION' prefix:
+2024-09-16 13:03:49,650  INFO [  0%] env_config Resolved OpenAI env vars with 'COMPLETION' prefix:
+2024-09-16 13:04:27,678  INFO [  0%] env_config Resolved OpenAI env vars with 'COMPLETION' prefix:
+2024-09-16 13:07:47,429  INFO [  0%] env_config Resolved OpenAI env vars with 'COMPLETION' prefix:
+2024-09-16 13:07:47,429  INFO [  0%] env_config  - OPENAI_API_KEY=...........................................................................................GkoA
+2024-09-16 13:07:47,456  INFO [  0%] raft Using checkpoint chunks /Users/irinejuliet/Desktop/CPSC 490/gorilla/raft/output-checkpoints/chunks
+2024-09-16 13:07:47,456  INFO [  0%] raft Retrieving chunks from /Users/irinejuliet/Desktop/raft_datasets/aipcs_removed.pdf of type pdf using the text-embedding-ada-002 model.
+2024-09-16 13:07:47,456  INFO [  0%] env_config Resolved OpenAI env vars with 'EMBEDDING' prefix:
+2024-09-16 13:07:47,456  INFO [  0%] env_config  - OPENAI_API_KEY=...........................................................................................GkoA
+2024-09-16 13:08:00,136  INFO [  0%] raft Using system prompt key gpt
+2024-09-16 13:08:00,136  INFO [  0%] raft Using 2 worker threads
+2024-09-16 14:38:46,487  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.847478 seconds
+2024-09-16 14:38:53,123  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.944249 seconds
+2024-09-16 15:16:02,829  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.841539 seconds
+2024-09-16 15:16:02,853  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.786820 seconds
+2024-09-16 15:16:03,741  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.735745 seconds
+2024-09-16 15:16:03,771  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.541322 seconds
+2024-09-16 15:16:05,508  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.849295 seconds
+2024-09-16 15:16:05,679  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.759619 seconds
+2024-09-16 15:16:06,454  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.826282 seconds
+2024-09-16 15:16:06,527  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.519404 seconds
+2024-09-16 15:16:08,258  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.944886 seconds
+2024-09-16 15:16:08,472  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.847051 seconds
+2024-09-16 15:16:09,310  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.945654 seconds
+2024-09-16 15:16:09,416  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.989934 seconds
+2024-09-16 15:16:11,450  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.827597 seconds
+2024-09-16 15:16:11,592  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.946963 seconds
+2024-09-16 15:16:12,369  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.957494 seconds
+2024-09-16 15:16:12,632  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.695957 seconds
+2024-09-16 15:16:14,516  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.917004 seconds
+2024-09-16 15:16:14,532  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.999570 seconds
+2024-09-16 15:16:15,541  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.508895 seconds
+2024-09-16 15:16:15,650  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.677438 seconds
+2024-09-16 15:16:17,272  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.893863 seconds
+2024-09-16 15:16:17,519  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.834494 seconds
+2024-09-16 15:16:18,267  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.737662 seconds
+2024-09-16 15:16:18,459  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.719507 seconds
+2024-09-16 15:16:20,217  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.924723 seconds
+2024-09-16 15:16:20,372  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.784292 seconds
+2024-09-16 15:16:21,241  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.994722 seconds
+2024-09-16 15:16:21,247  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.803584 seconds
+2024-09-16 15:16:23,260  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.843560 seconds
+2024-09-16 15:16:23,450  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.772654 seconds
+2024-09-16 15:16:24,205  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.840281 seconds
+2024-09-16 15:16:24,316  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.521939 seconds
+2024-09-16 15:16:26,035  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.892976 seconds
+2024-09-16 15:16:26,225  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.813187 seconds
+2024-09-16 15:16:27,021  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.923075 seconds
+2024-09-16 15:16:27,131  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.819872 seconds
+2024-09-16 15:16:29,140  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.775273 seconds
+2024-09-16 15:16:29,205  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.975467 seconds
+2024-09-16 15:16:30,018  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.791344 seconds
+2024-09-16 15:16:30,275  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.593428 seconds
+2024-09-16 15:16:32,011  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.751012 seconds
+2024-09-16 15:16:32,053  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.752302 seconds
+2024-09-16 15:16:32,860  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.741637 seconds
+2024-09-16 15:16:32,891  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.991467 seconds
+2024-09-16 15:16:34,814  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.807366 seconds
+2024-09-16 15:16:35,079  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.795760 seconds
+2024-09-16 15:16:35,726  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.764543 seconds
+2024-09-16 15:16:35,967  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.515158 seconds
+2024-09-16 15:16:37,682  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.866249 seconds
+2024-09-16 15:16:37,689  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.989586 seconds
+2024-09-16 15:16:38,649  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.886163 seconds
+2024-09-16 15:16:38,776  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.962418 seconds
+2024-09-16 15:16:40,722  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.881277 seconds
+2024-09-16 15:16:40,934  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.820170 seconds
+2024-09-16 15:16:41,704  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.558860 seconds
+2024-09-16 15:16:41,848  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.763528 seconds
+2024-09-16 15:16:43,488  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.947136 seconds
+2024-09-16 15:16:43,808  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.852865 seconds
+2024-09-16 15:16:44,542  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.638655 seconds
+2024-09-16 15:16:44,754  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.934956 seconds
+2024-09-16 15:16:46,370  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.903427 seconds
+2024-09-16 15:16:46,895  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.829191 seconds
+2024-09-16 15:16:47,387  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.565468 seconds
+2024-09-16 15:16:47,821  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.823263 seconds
+2024-09-16 15:16:49,148  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.839493 seconds
+2024-09-16 15:16:49,852  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.928463 seconds
+2024-09-16 15:16:50,077  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.909748 seconds
+2024-09-16 15:16:50,872  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.649504 seconds
+2024-09-16 15:16:52,183  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.970531 seconds
+2024-09-16 15:16:52,720  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.769227 seconds
+2024-09-16 15:16:53,248  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.704659 seconds
+2024-09-16 15:16:53,583  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.947982 seconds
+2024-09-16 15:16:55,162  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.792308 seconds
+2024-09-16 15:16:55,735  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.830232 seconds
+2024-09-16 15:16:56,044  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.897633 seconds
+2024-09-16 15:16:56,678  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.550991 seconds
+2024-09-16 15:16:58,246  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.781595 seconds
+2024-09-16 15:16:58,758  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.811766 seconds
+2024-09-16 15:16:59,178  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.812575 seconds
+2024-09-16 15:16:59,661  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.602985 seconds
+2024-09-16 15:17:01,170  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.983012 seconds
+2024-09-16 15:17:01,436  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.773541 seconds
+2024-09-16 15:17:02,247  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.799849 seconds
+2024-09-16 15:17:02,305  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.854084 seconds
+2024-09-16 15:17:04,242  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.968715 seconds
+2024-09-16 15:17:04,345  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.835246 seconds
+2024-09-16 15:17:05,276  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.765525 seconds
+2024-09-16 15:17:05,300  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.880208 seconds
+2024-09-16 15:17:07,211  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.908523 seconds
+2024-09-16 15:17:07,392  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.912883 seconds
+2024-09-16 15:17:08,213  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.790579 seconds
+2024-09-16 15:17:08,410  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.656318 seconds
+2024-09-16 15:17:10,265  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.863232 seconds
+2024-09-16 15:17:10,388  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.775500 seconds
+2024-09-16 15:17:11,222  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.703573 seconds
+2024-09-16 15:17:11,251  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.708606 seconds
+2024-09-16 15:17:13,110  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.765506 seconds
+2024-09-16 15:17:13,131  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.815999 seconds
+2024-09-16 15:17:13,965  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.942105 seconds
+2024-09-16 15:17:14,037  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.706813 seconds
+2024-09-16 15:17:15,950  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.774986 seconds
+2024-09-16 15:17:16,108  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.864862 seconds
+2024-09-16 15:17:16,822  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.649738 seconds
+2024-09-16 15:17:17,061  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.785277 seconds
+2024-09-16 15:17:18,679  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.899392 seconds
+2024-09-16 15:17:19,025  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.756473 seconds
+2024-09-16 15:17:19,670  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.700800 seconds
+2024-09-16 15:17:19,870  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.661906 seconds
+2024-09-16 15:17:21,553  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.795149 seconds
+2024-09-16 15:17:21,772  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.830086 seconds
+2024-09-16 15:17:22,438  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.519723 seconds
+2024-09-16 15:17:22,711  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.972857 seconds
+2024-09-16 15:17:24,156  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.843559 seconds
+2024-09-16 15:17:24,865  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.828460 seconds
+2024-09-16 15:17:25,100  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.654136 seconds
+2024-09-16 15:17:25,779  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.842718 seconds
+2024-09-16 15:17:26,943  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.855316 seconds
+2024-09-16 15:17:27,816  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.894284 seconds
+2024-09-16 15:17:27,927  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.511591 seconds
+2024-09-16 15:17:28,802  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.894958 seconds
+2024-09-16 15:17:29,665  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.827708 seconds
+2024-09-16 15:17:30,594  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.764962 seconds
+2024-09-16 15:17:30,895  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.923652 seconds
+2024-09-16 15:17:31,914  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.706831 seconds
+2024-09-16 15:17:32,576  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.928865 seconds
+2024-09-16 15:17:33,606  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.634851 seconds
+2024-09-16 15:17:33,823  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.752027 seconds
+2024-09-16 15:17:34,678  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.764977 seconds
+2024-09-16 15:17:35,425  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.980123 seconds
+2024-09-16 15:17:36,500  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.891638 seconds
+2024-09-16 15:17:36,957  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.854027 seconds
+2024-09-16 15:17:37,909  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.524665 seconds
+2024-09-16 15:17:38,641  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.991842 seconds
+2024-09-16 15:17:39,732  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.553407 seconds
+2024-09-16 15:17:39,882  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.817325 seconds
+2024-09-16 15:17:40,798  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.506146 seconds
+2024-09-16 15:17:41,474  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.959291 seconds
+2024-09-16 15:17:42,505  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.887642 seconds
+2024-09-16 15:17:42,526  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.767774 seconds
+2024-09-16 15:17:43,516  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.673242 seconds
+2024-09-16 15:17:44,485  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.925564 seconds
+2024-09-16 15:17:45,377  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.921456 seconds
+2024-09-16 15:17:45,497  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.789718 seconds
+2024-09-16 15:17:46,403  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.515544 seconds
+2024-09-16 15:17:47,479  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.912282 seconds
+2024-09-16 15:17:48,112  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.803391 seconds
+2024-09-16 15:17:48,490  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.975644 seconds
+2024-09-16 15:17:49,021  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.643771 seconds
+2024-09-16 15:17:50,648  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.772081 seconds
+2024-09-16 15:17:50,851  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.991370 seconds
+2024-09-16 15:17:51,512  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.817109 seconds
+2024-09-16 15:17:51,945  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.514022 seconds
+2024-09-16 15:17:53,529  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.838375 seconds
+2024-09-16 15:17:53,689  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.972267 seconds
+2024-09-16 15:17:54,469  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.630804 seconds
+2024-09-16 15:17:54,761  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.619292 seconds
+2024-09-16 15:17:56,303  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.879213 seconds
+2024-09-16 15:17:56,575  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.861992 seconds
+2024-09-16 15:17:57,278  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.789476 seconds
+2024-09-16 15:17:57,541  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.989926 seconds
+2024-09-16 15:17:59,258  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.790721 seconds
+2024-09-16 15:17:59,726  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.970858 seconds
+2024-09-16 15:18:00,160  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.792245 seconds
+2024-09-16 15:18:00,793  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.687583 seconds
+2024-09-16 15:18:02,151  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.984062 seconds
+2024-09-16 15:18:02,673  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.824153 seconds
+2024-09-16 15:18:03,240  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.505306 seconds
+2024-09-16 15:18:03,616  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.581641 seconds
+2024-09-16 15:18:04,983  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.866193 seconds
+2024-09-16 15:18:05,403  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.884397 seconds
+2024-09-16 15:18:05,946  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.756459 seconds
+2024-09-16 15:18:06,391  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.738618 seconds
+2024-09-16 15:18:07,920  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.838348 seconds
+2024-09-16 15:18:08,320  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.900355 seconds
+2024-09-16 15:18:08,881  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.679039 seconds
+2024-09-16 15:18:09,310  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.912015 seconds
+2024-09-16 15:18:10,765  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.895995 seconds
+2024-09-16 15:18:11,415  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.808842 seconds
+2024-09-16 15:18:11,760  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.823251 seconds
+2024-09-16 15:18:12,329  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.881935 seconds
+2024-09-16 15:18:13,794  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.887828 seconds
+2024-09-16 15:18:14,435  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.868196 seconds
+2024-09-16 15:18:14,870  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.741679 seconds
+2024-09-16 15:18:15,400  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.608224 seconds
+2024-09-16 15:18:16,809  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.963346 seconds
+2024-09-16 15:18:17,204  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.933903 seconds
+2024-09-16 15:18:17,875  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.592178 seconds
+2024-09-16 15:18:18,252  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.990238 seconds
+2024-09-16 15:18:19,657  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.960174 seconds
+2024-09-16 15:18:20,445  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.937386 seconds
+2024-09-16 15:18:20,728  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.516596 seconds
+2024-09-16 15:18:21,489  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.829541 seconds
+2024-09-16 15:18:22,436  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.989543 seconds
+2024-09-16 15:18:23,504  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.892955 seconds
+2024-09-16 15:18:23,571  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.857650 seconds
+2024-09-16 15:18:24,498  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.641615 seconds
+2024-09-16 15:18:25,631  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.883831 seconds
+2024-09-16 15:18:26,346  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.910508 seconds
+2024-09-16 15:18:26,610  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.546473 seconds
+2024-09-16 15:18:27,370  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.975628 seconds
+2024-09-16 15:18:28,352  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.906613 seconds
+2024-09-16 15:18:29,434  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.981885 seconds
+2024-09-16 15:18:29,637  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.836172 seconds
+2024-09-16 15:18:30,572  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.741550 seconds
+2024-09-16 15:18:31,602  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.937157 seconds
+2024-09-16 15:18:32,513  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.762742 seconds
+2024-09-16 15:18:32,633  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.815807 seconds
+2024-09-16 15:18:33,380  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.651491 seconds
+2024-09-16 15:18:34,671  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.980899 seconds
+2024-09-16 15:18:35,224  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.826000 seconds
+2024-09-16 15:18:35,760  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.602563 seconds
+2024-09-16 15:18:36,169  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.661121 seconds
+2024-09-16 15:18:37,560  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.887463 seconds
+2024-09-16 15:18:38,015  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.783796 seconds
+2024-09-16 15:18:38,563  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.861093 seconds
+2024-09-16 15:18:38,904  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.824727 seconds
+2024-09-16 15:18:40,633  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.927752 seconds
+2024-09-16 15:18:40,922  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.865646 seconds
+2024-09-16 15:18:41,670  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.816178 seconds
+2024-09-16 15:18:41,883  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.869731 seconds
+2024-09-16 15:18:43,697  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.990062 seconds
+2024-09-16 15:18:43,937  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.785934 seconds
+2024-09-16 15:18:44,782  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.507438 seconds
+2024-09-16 15:18:44,853  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.588823 seconds
+2024-09-16 15:18:46,480  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.855653 seconds
+2024-09-16 15:18:46,625  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.941291 seconds
+2024-09-16 15:18:47,436  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.918363 seconds
+2024-09-16 15:18:47,656  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.877753 seconds
+2024-09-16 15:18:49,571  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.998103 seconds
+2024-09-16 15:18:49,722  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.815466 seconds
+2024-09-16 15:18:50,641  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.608195 seconds
+2024-09-16 15:18:50,653  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.721985 seconds
+2024-09-16 15:18:52,443  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.917589 seconds
+2024-09-16 15:18:52,552  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.836453 seconds
+2024-09-16 15:18:53,462  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.915018 seconds
+2024-09-16 15:18:53,478  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.704801 seconds
+2024-09-16 15:18:55,370  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.787732 seconds
+2024-09-16 15:18:55,557  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.917275 seconds
+2024-09-16 15:18:56,252  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.611526 seconds
+2024-09-16 15:18:56,569  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.671708 seconds
+2024-09-16 15:18:58,072  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.848201 seconds
+2024-09-16 15:18:58,438  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.994521 seconds
+2024-09-16 15:18:59,026  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.894812 seconds
+2024-09-16 15:18:59,539  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.522313 seconds
+2024-09-16 15:19:01,129  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.985130 seconds
+2024-09-16 15:19:01,310  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.844162 seconds
+2024-09-16 15:19:02,212  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.901758 seconds
+2024-09-16 15:19:02,238  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.979368 seconds
+2024-09-16 15:19:04,319  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.832353 seconds
+2024-09-16 15:19:04,405  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.825524 seconds
+2024-09-16 15:19:05,253  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.668192 seconds
+2024-09-16 15:19:05,325  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.697323 seconds
+2024-09-16 15:19:07,106  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.813709 seconds
+2024-09-16 15:19:07,208  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.876300 seconds
+2024-09-16 15:19:08,022  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.831175 seconds
+2024-09-16 15:19:08,179  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.643468 seconds
+2024-09-16 15:19:10,020  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.923688 seconds
+2024-09-16 15:19:10,041  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.796203 seconds
+2024-09-16 15:19:10,937  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.823880 seconds
+2024-09-16 15:19:11,050  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.591082 seconds
+2024-09-16 15:19:12,871  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.994511 seconds
+2024-09-16 15:19:12,944  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.964329 seconds
+2024-09-16 15:19:13,978  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.867709 seconds
+2024-09-16 15:19:14,010  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.984801 seconds
+2024-09-16 15:19:16,040  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.955454 seconds
+2024-09-16 15:19:16,175  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.767903 seconds
+2024-09-16 15:19:17,054  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.980101 seconds
+2024-09-16 15:19:17,085  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.767862 seconds
+2024-09-16 15:19:19,055  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.836213 seconds
+2024-09-16 15:19:19,216  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.778239 seconds
+2024-09-16 15:19:19,994  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.904804 seconds
+2024-09-16 15:19:20,083  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.620882 seconds
+2024-09-16 15:19:21,886  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.897126 seconds
+2024-09-16 15:19:22,079  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.815525 seconds
+2024-09-16 15:19:22,873  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.584710 seconds
+2024-09-16 15:19:23,034  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.623880 seconds
+2024-09-16 15:19:24,647  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.942888 seconds
+2024-09-16 15:19:24,841  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.853701 seconds
+2024-09-16 15:19:25,687  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.594464 seconds
+2024-09-16 15:19:25,782  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.982557 seconds
+2024-09-16 15:19:27,484  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.827261 seconds
+2024-09-16 15:19:27,974  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.833242 seconds
+2024-09-16 15:19:28,655  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.583279 seconds
+2024-09-16 15:19:28,897  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.638479 seconds
+2024-09-16 15:19:30,428  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.771242 seconds
+2024-09-16 15:19:30,721  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.927046 seconds
+2024-09-16 15:19:31,303  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.920510 seconds
+2024-09-16 15:19:31,747  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.635708 seconds
+2024-09-16 15:19:33,423  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.804469 seconds
+2024-09-16 15:19:33,606  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.835690 seconds
+2024-09-16 15:19:34,325  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.975762 seconds
+2024-09-16 15:19:34,535  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.517158 seconds
+2024-09-16 15:19:36,253  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.904344 seconds
+2024-09-16 15:19:36,483  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.890500 seconds
+2024-09-16 15:19:37,254  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.758244 seconds
+2024-09-16 15:19:37,467  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.517095 seconds
+2024-09-16 15:19:39,160  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.898376 seconds
+2024-09-16 15:19:39,219  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.843516 seconds
+2024-09-16 15:19:40,225  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.721417 seconds
+2024-09-16 15:19:40,227  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.648920 seconds
+2024-09-16 15:19:42,464  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.822231 seconds
+2024-09-16 15:19:42,627  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.866045 seconds
+2024-09-16 15:19:43,397  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.746574 seconds
+2024-09-16 15:19:43,673  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.853592 seconds
+2024-09-16 15:19:45,321  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.774705 seconds
+2024-09-16 15:19:45,723  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.827545 seconds
+2024-09-16 15:19:46,189  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.789872 seconds
+2024-09-16 15:19:46,648  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.772330 seconds
+2024-09-16 15:19:48,162  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.864115 seconds
+2024-09-16 15:19:48,593  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.787858 seconds
+2024-09-16 15:19:49,122  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.679519 seconds
+2024-09-16 15:19:49,466  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.747179 seconds
+2024-09-16 15:19:51,004  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.840489 seconds
+2024-09-16 15:19:51,394  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.799495 seconds
+2024-09-16 15:19:51,943  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.801284 seconds
+2024-09-16 15:19:52,279  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.517180 seconds
+2024-09-16 15:19:53,945  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.870446 seconds
+2024-09-16 15:19:54,018  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.930546 seconds
+2024-09-16 15:19:54,905  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.744584 seconds
+2024-09-16 15:19:55,042  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.603906 seconds
+2024-09-16 15:19:56,823  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.905362 seconds
+2024-09-16 15:19:56,834  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.814397 seconds
+2024-09-16 15:19:57,743  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.550545 seconds
+2024-09-16 15:19:57,819  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.827665 seconds
+2024-09-16 15:19:59,489  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.869834 seconds
+2024-09-16 15:19:59,819  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.885226 seconds
+2024-09-16 15:20:00,448  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.804055 seconds
+2024-09-16 15:20:00,812  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.720557 seconds
+2024-09-16 15:20:02,445  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.986159 seconds
+2024-09-16 15:20:02,741  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.914570 seconds
+2024-09-16 15:20:03,527  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.745593 seconds
+2024-09-16 15:20:03,748  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.993972 seconds
+2024-09-16 15:20:05,446  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.893291 seconds
+2024-09-16 15:20:05,933  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.913405 seconds
+2024-09-16 15:20:06,430  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.511152 seconds
+2024-09-16 15:20:06,937  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.679535 seconds
+2024-09-16 15:20:08,126  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.972486 seconds
+2024-09-16 15:20:08,794  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.820254 seconds
+2024-09-16 15:20:09,200  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.549191 seconds
+2024-09-16 15:20:09,713  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.553379 seconds
+2024-09-16 15:20:10,917  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.980192 seconds
+2024-09-16 15:20:11,455  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.879452 seconds
+2024-09-16 15:20:11,996  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.717127 seconds
+2024-09-16 15:20:12,431  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.660332 seconds
+2024-09-16 15:20:13,886  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.817450 seconds
+2024-09-16 15:20:14,270  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.859785 seconds
+2024-09-16 15:20:14,810  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.958450 seconds
+2024-09-16 15:20:15,224  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.509011 seconds
+2024-09-16 15:20:16,933  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.905615 seconds
+2024-09-16 15:20:16,998  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.823200 seconds
+2024-09-16 15:20:17,923  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.926547 seconds
+2024-09-16 15:20:17,931  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.709284 seconds
+2024-09-16 15:20:20,085  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.865524 seconds
+2024-09-16 15:20:20,114  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.750992 seconds
+2024-09-16 15:20:21,164  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.507400 seconds
+2024-09-16 15:20:21,168  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.684769 seconds
+2024-09-16 15:20:22,862  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.886471 seconds
+2024-09-16 15:20:23,043  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.802695 seconds
+2024-09-16 15:20:23,849  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.654650 seconds
+2024-09-16 15:20:23,950  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.641790 seconds
+2024-09-16 15:20:25,691  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.986732 seconds
+2024-09-16 15:20:25,780  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.891645 seconds
+2024-09-16 15:20:26,773  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.614832 seconds
+2024-09-16 15:20:26,789  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.529811 seconds
+2024-09-16 15:20:28,513  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.762486 seconds
+2024-09-16 15:20:28,573  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.776858 seconds
+2024-09-16 15:20:29,375  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.866489 seconds
+2024-09-16 15:20:29,440  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.580226 seconds
+2024-09-16 15:20:31,209  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.866779 seconds
+2024-09-16 15:20:31,413  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.842826 seconds
+2024-09-16 15:20:32,171  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.921607 seconds
+2024-09-16 15:20:32,350  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.940150 seconds
+2024-09-16 15:20:34,331  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.910805 seconds
+2024-09-16 15:20:34,483  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.899336 seconds
+2024-09-16 15:20:35,338  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.848541 seconds
+2024-09-16 15:20:35,479  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.568547 seconds
+2024-09-16 15:20:37,238  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.853429 seconds
+2024-09-16 15:20:37,376  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.808138 seconds
+2024-09-16 15:20:38,202  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.764917 seconds
+2024-09-16 15:20:38,279  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.506981 seconds
+2024-09-16 15:20:39,979  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.932647 seconds
+2024-09-16 15:20:40,153  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.929345 seconds
+2024-09-16 15:20:41,003  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.718945 seconds
+2024-09-16 15:20:41,174  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.692959 seconds
+2024-09-16 15:20:42,915  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.918266 seconds
+2024-09-16 15:20:43,074  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.811077 seconds
+2024-09-16 15:20:43,925  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.713994 seconds
+2024-09-16 15:20:43,975  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.709873 seconds
+2024-09-16 15:20:45,831  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.846196 seconds
+2024-09-16 15:20:45,864  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.755445 seconds
+2024-09-16 15:20:46,713  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.821817 seconds
+2024-09-16 15:20:46,775  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.833990 seconds
+2024-09-16 15:20:48,729  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.973336 seconds
+2024-09-16 15:20:48,803  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.888495 seconds
+2024-09-16 15:20:49,783  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.896455 seconds
+2024-09-16 15:20:49,801  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.769217 seconds
+2024-09-16 15:20:51,747  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.783131 seconds
+2024-09-16 15:20:51,946  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.987818 seconds
+2024-09-16 15:20:52,619  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.560343 seconds
+2024-09-16 15:20:53,036  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.779263 seconds
+2024-09-16 15:20:54,369  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.788324 seconds
+2024-09-16 15:20:54,996  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.864346 seconds
+2024-09-16 15:20:55,242  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.516227 seconds
+2024-09-16 15:20:55,974  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.606619 seconds
+2024-09-16 15:20:56,949  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.899198 seconds
+2024-09-16 15:20:57,757  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.932735 seconds
+2024-09-16 15:20:57,944  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.532969 seconds
+2024-09-16 15:20:58,809  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.982432 seconds
+2024-09-16 15:20:59,672  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.804524 seconds
+2024-09-16 15:21:00,566  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.542026 seconds
+2024-09-16 15:21:00,996  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.953754 seconds
+2024-09-16 15:21:02,040  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.970068 seconds
+2024-09-16 15:21:02,296  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.990834 seconds
+2024-09-16 15:21:03,377  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.916140 seconds
+2024-09-16 15:21:04,194  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.935460 seconds
+2024-09-16 15:21:05,250  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.819179 seconds
+2024-09-16 15:21:05,467  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.787158 seconds
+2024-09-16 15:21:06,341  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.774799 seconds
+2024-09-16 15:21:07,263  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.760986 seconds
+2024-09-16 15:21:08,107  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.973306 seconds
+2024-09-16 15:21:08,492  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.793342 seconds
+2024-09-16 15:21:09,374  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.964896 seconds
+2024-09-16 15:21:10,252  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.929680 seconds
+2024-09-16 15:21:11,274  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.660146 seconds
+2024-09-16 15:21:11,510  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.955585 seconds
+2024-09-16 15:21:12,557  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.900233 seconds
+2024-09-16 15:21:13,098  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.818703 seconds
+2024-09-16 15:21:14,011  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.633361 seconds
+2024-09-16 15:21:14,716  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.907042 seconds
+2024-09-16 15:21:15,721  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.979358 seconds
+2024-09-16 15:21:15,914  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.877648 seconds
+2024-09-16 15:21:16,888  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.631358 seconds
+2024-09-16 15:21:17,879  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.983258 seconds
+2024-09-16 15:21:18,697  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.800915 seconds
+2024-09-16 15:21:18,957  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.814351 seconds
+2024-09-16 15:21:19,592  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.733300 seconds
+2024-09-16 15:21:21,002  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.927854 seconds
+2024-09-16 15:21:21,508  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.850543 seconds
+2024-09-16 15:21:22,050  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.630904 seconds
+2024-09-16 15:21:22,457  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.556106 seconds
+2024-09-16 15:21:23,907  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.848945 seconds
+2024-09-16 15:21:24,197  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.951281 seconds
+2024-09-16 15:21:24,846  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.644695 seconds
+2024-09-16 15:21:25,243  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.693426 seconds
+2024-09-16 15:21:26,680  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.983842 seconds
+2024-09-16 15:21:27,124  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.924004 seconds
+2024-09-16 15:21:27,755  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.975106 seconds
+2024-09-16 15:21:28,142  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.692341 seconds
+2024-09-16 15:21:29,920  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.756435 seconds
+2024-09-16 15:21:30,066  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.971219 seconds
+2024-09-16 15:21:30,786  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.747507 seconds
+2024-09-16 15:21:31,132  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.754003 seconds
+2024-09-16 15:21:32,713  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.914181 seconds
+2024-09-16 15:21:33,061  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.939864 seconds
+2024-09-16 15:21:33,767  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.837964 seconds
+2024-09-16 15:21:34,099  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.557306 seconds
+2024-09-16 15:21:36,057  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.883432 seconds
+2024-09-16 15:21:36,139  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.766403 seconds
+2024-09-16 15:21:37,195  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.853994 seconds
+2024-09-16 15:21:37,208  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.558149 seconds
+2024-09-16 15:21:38,946  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.986351 seconds
+2024-09-16 15:21:39,261  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.761113 seconds
+2024-09-16 15:21:40,041  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.581603 seconds
+2024-09-16 15:21:40,107  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.839991 seconds
+2024-09-16 15:21:41,802  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.964970 seconds
+2024-09-16 15:21:42,123  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.852552 seconds
+2024-09-16 15:21:42,873  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.729608 seconds
+2024-09-16 15:21:43,061  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.984522 seconds
+2024-09-16 15:21:44,788  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.940397 seconds
+2024-09-16 15:21:45,238  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.841307 seconds
+2024-09-16 15:21:45,831  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.941459 seconds
+2024-09-16 15:21:46,189  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.908947 seconds
+2024-09-16 15:21:47,970  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.971306 seconds
+2024-09-16 15:21:48,278  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.899125 seconds
+2024-09-16 15:21:49,043  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.834144 seconds
+2024-09-16 15:21:49,272  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.619112 seconds
+2024-09-16 15:21:51,061  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.854817 seconds
+2024-09-16 15:21:51,159  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.759675 seconds
+2024-09-16 15:21:52,015  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.789870 seconds
+2024-09-16 15:21:52,016  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.632787 seconds
+2024-09-16 15:21:53,854  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.847929 seconds
+2024-09-16 15:21:53,992  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.769471 seconds
+2024-09-16 15:21:54,795  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.923636 seconds
+2024-09-16 15:21:54,856  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.893440 seconds
+2024-09-16 15:21:56,908  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.789406 seconds
+2024-09-16 15:21:56,934  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.830224 seconds
+2024-09-16 15:21:57,793  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.971012 seconds
+2024-09-16 15:21:57,856  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.730687 seconds
+2024-09-16 15:21:59,783  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.791560 seconds
+2024-09-16 15:21:59,954  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.758714 seconds
+2024-09-16 15:22:00,667  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.747490 seconds
+2024-09-16 15:22:00,807  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.573836 seconds
+2024-09-16 15:22:02,577  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.767424 seconds
+2024-09-16 15:22:02,612  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.819497 seconds
+2024-09-16 15:22:03,442  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.775369 seconds
+2024-09-16 15:22:03,536  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.977594 seconds
+2024-09-16 15:22:05,416  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.795544 seconds
+2024-09-16 15:22:05,691  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.959827 seconds
+2024-09-16 15:22:06,299  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.666066 seconds
+2024-09-16 15:22:06,738  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.584622 seconds
+2024-09-16 15:22:08,172  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.782039 seconds
+2024-09-16 15:22:08,513  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.895303 seconds
+2024-09-16 15:22:09,089  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.554463 seconds
+2024-09-16 15:22:09,493  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.991729 seconds
+2024-09-16 15:22:10,813  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.997563 seconds
+2024-09-16 15:22:11,649  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.893760 seconds
+2024-09-16 15:22:11,898  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.652874 seconds
+2024-09-16 15:22:12,628  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.636887 seconds
+2024-09-16 15:22:13,733  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.767758 seconds
+2024-09-16 15:22:14,457  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.940796 seconds
+2024-09-16 15:22:14,593  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.727907 seconds
+2024-09-16 15:22:15,488  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.660652 seconds
+2024-09-16 15:22:16,513  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.926316 seconds
+2024-09-16 15:22:17,331  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.966921 seconds
+2024-09-16 15:22:17,525  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.894412 seconds
+2024-09-16 15:22:18,384  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.861988 seconds
+2024-09-16 15:22:19,597  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.834056 seconds
+2024-09-16 15:22:20,428  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.871455 seconds
+2024-09-16 15:22:20,513  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.944743 seconds
+2024-09-16 15:22:21,392  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.701178 seconds
+2024-09-16 15:22:22,640  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.942849 seconds
+2024-09-16 15:22:23,300  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.874043 seconds
+2024-09-16 15:22:23,675  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.521153 seconds
+2024-09-16 15:22:24,279  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.565797 seconds
+2024-09-16 15:22:25,379  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.767267 seconds
+2024-09-16 15:22:26,038  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.867832 seconds
+2024-09-16 15:22:26,236  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.770442 seconds
+2024-09-16 15:22:26,996  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.596877 seconds
+2024-09-16 15:22:28,211  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.978740 seconds
+2024-09-16 15:22:28,772  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.788896 seconds
+2024-09-16 15:22:29,273  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.685397 seconds
+2024-09-16 15:22:29,650  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.730099 seconds
+2024-09-16 15:22:31,152  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.767494 seconds
+2024-09-16 15:22:31,564  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.929104 seconds
+2024-09-16 15:22:32,016  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.844173 seconds
+2024-09-16 15:22:32,592  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.550176 seconds
+2024-09-16 15:22:34,054  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.770188 seconds
+2024-09-16 15:22:34,714  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.815817 seconds
+2024-09-16 15:22:34,918  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.630940 seconds
+2024-09-16 15:22:35,625  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.842471 seconds
+2024-09-16 15:22:36,736  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.972411 seconds
+2024-09-16 15:22:37,648  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.771623 seconds
+2024-09-16 15:22:37,798  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.511662 seconds
+2024-09-16 15:22:38,554  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.556118 seconds
+2024-09-16 15:22:39,494  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.936555 seconds
+2024-09-16 15:22:40,321  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.895194 seconds
+2024-09-16 15:22:40,521  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.735144 seconds
+2024-09-16 15:22:41,321  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.692249 seconds
+2024-09-16 15:22:42,447  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.779188 seconds
+2024-09-16 15:22:43,213  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.805128 seconds
+2024-09-16 15:22:43,326  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.946307 seconds
+2024-09-16 15:22:44,106  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.545672 seconds
+2024-09-16 15:22:45,452  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.788373 seconds
+2024-09-16 15:22:45,845  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.770347 seconds
+2024-09-16 15:22:46,466  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.774879 seconds
+2024-09-16 15:22:46,707  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.831270 seconds
+2024-09-16 15:22:48,422  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.849410 seconds
+2024-09-16 15:22:48,703  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.934859 seconds
+2024-09-16 15:22:49,375  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.998433 seconds
+2024-09-16 15:22:49,734  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.891038 seconds
+2024-09-16 15:22:51,574  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.935712 seconds
+2024-09-16 15:22:51,808  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.841172 seconds
+2024-09-16 15:22:52,624  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.508153 seconds
+2024-09-16 15:22:52,749  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.752799 seconds
+2024-09-16 15:22:54,320  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.968218 seconds
+2024-09-16 15:22:54,682  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.785885 seconds
+2024-09-16 15:22:55,379  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.929901 seconds
+2024-09-16 15:22:55,550  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.729467 seconds
+2024-09-16 15:22:57,451  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.974691 seconds
+2024-09-16 15:22:57,543  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.841357 seconds
+2024-09-16 15:22:58,487  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.599270 seconds
+2024-09-16 15:22:58,515  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.906335 seconds
+2024-09-16 15:23:00,289  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.783392 seconds
+2024-09-16 15:23:00,599  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.856739 seconds
+2024-09-16 15:23:01,189  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.917597 seconds
+2024-09-16 15:23:01,560  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.777264 seconds
+2024-09-16 15:23:03,299  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.771515 seconds
+2024-09-16 15:23:03,516  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.883988 seconds
+2024-09-16 15:23:04,181  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.537417 seconds
+2024-09-16 15:23:04,494  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.531836 seconds
+2024-09-16 15:23:05,903  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.774583 seconds
+2024-09-16 15:23:06,202  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.904653 seconds
+2024-09-16 15:23:06,788  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.978137 seconds
+2024-09-16 15:23:07,194  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.740992 seconds
+2024-09-16 15:23:08,946  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.855550 seconds
+2024-09-16 15:23:09,157  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.760026 seconds
+2024-09-16 15:23:09,899  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.953291 seconds
+2024-09-16 15:23:10,003  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.730869 seconds
+2024-09-16 15:23:11,924  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.751422 seconds
+2024-09-16 15:23:12,021  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.804282 seconds
+2024-09-16 15:23:12,780  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.513758 seconds
+2024-09-16 15:23:12,916  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.915094 seconds
+2024-09-16 15:23:14,481  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.793405 seconds
+2024-09-16 15:23:15,020  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.789067 seconds
+2024-09-16 15:23:15,380  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.742099 seconds
+2024-09-16 15:23:15,899  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.666223 seconds
+2024-09-16 15:23:17,336  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.801483 seconds
+2024-09-16 15:23:17,741  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.904252 seconds
+2024-09-16 15:23:18,241  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.561097 seconds
+2024-09-16 15:23:18,747  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.852659 seconds
+2024-09-16 15:23:19,995  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.896627 seconds
+2024-09-16 15:23:20,859  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.833747 seconds
+2024-09-16 15:23:20,982  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.600181 seconds
+2024-09-16 15:23:21,800  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.545453 seconds
+2024-09-16 15:23:22,782  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.943508 seconds
+2024-09-16 15:23:23,527  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.890529 seconds
+2024-09-16 15:23:23,823  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.776219 seconds
+2024-09-16 15:23:24,521  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.681176 seconds
+2024-09-16 15:23:25,802  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.971146 seconds
+2024-09-16 15:23:26,421  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.912080 seconds
+2024-09-16 15:23:26,862  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.577814 seconds
+2024-09-16 15:23:27,429  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.909940 seconds
+2024-09-16 15:23:28,626  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.983868 seconds
+2024-09-16 15:23:29,526  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.874271 seconds
+2024-09-16 15:23:29,697  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.713258 seconds
+2024-09-16 15:23:30,492  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.720105 seconds
+2024-09-16 15:23:31,604  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.871126 seconds
+2024-09-16 15:23:32,419  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.919234 seconds
+2024-09-16 15:23:32,576  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.822431 seconds
+2024-09-16 15:23:33,435  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.807425 seconds
+2024-09-16 15:23:34,590  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.894854 seconds
+2024-09-16 15:23:35,437  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.942252 seconds
+2024-09-16 15:23:35,572  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.977489 seconds
+2024-09-16 15:23:36,479  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.648045 seconds
+2024-09-16 15:23:37,744  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.765121 seconds
+2024-09-16 15:23:38,314  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.957517 seconds
+2024-09-16 15:23:38,601  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.524772 seconds
+2024-09-16 15:23:39,363  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.846408 seconds
+2024-09-16 15:23:40,324  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.834984 seconds
+2024-09-16 15:23:41,254  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.712899 seconds
+2024-09-16 15:23:41,451  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.770422 seconds
+2024-09-16 15:23:42,316  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.939078 seconds
+2024-09-16 15:23:43,173  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.792220 seconds
+2024-09-16 15:23:44,056  INFO [    ] openai._base_client Retrying request to /chat/completions in 1.771165 seconds
+2024-09-16 15:53:54,213  INFO [  0%] env_config Resolved OpenAI env vars with 'COMPLETION' prefix:
+2024-09-16 15:53:54,213  INFO [  0%] env_config  - OPENAI_API_KEY=...........................................................................................GkoA
+2024-09-16 15:53:54,231  INFO [  0%] raft Using checkpoint chunks /Users/irinejuliet/Desktop/CPSC 490/gorilla/raft/output-checkpoints/chunks
+2024-09-16 15:53:54,243  INFO [  0%] raft Using system prompt key gpt
+2024-09-16 15:53:54,243  INFO [  0%] raft Using 2 worker threads
+2024-09-16 15:53:54,598  INFO [  0%] raft Resuming generation from chunk 228/545 and 1100 questions
+2024-09-16 16:03:42,401  INFO [  0%] env_config Resolved OpenAI env vars with 'COMPLETION' prefix:
+2024-09-16 16:03:42,401  INFO [  0%] env_config  - OPENAI_API_KEY=...........................................................................................GkoA
+2024-09-16 16:03:42,443  INFO [  0%] raft Using checkpoint chunks /Users/irinejuliet/Desktop/CPSC 490/gorilla/raft/output-checkpoints/chunks
+2024-09-16 16:03:42,480  INFO [  0%] raft Using system prompt key gpt
+2024-09-16 16:03:42,480  INFO [  0%] raft Using 2 worker threads
+2024-09-16 16:03:43,128  INFO [  0%] raft Resuming generation from chunk 228/545 and 1100 questions
+2024-09-16 16:18:14,897  INFO [  0%] env_config Resolved OpenAI env vars with 'COMPLETION' prefix:
+2024-09-16 16:18:14,898  INFO [  0%] env_config  - OPENAI_API_KEY=...........................................................................................GkoA
+2024-09-16 16:18:14,916  INFO [  0%] raft Using checkpoint chunks /Users/irinejuliet/Desktop/CPSC 490/gorilla/raft/output-checkpoints/chunks
+2024-09-16 16:18:14,927  INFO [  0%] raft Using system prompt key gpt
+2024-09-16 16:18:14,927  INFO [  0%] raft Using 2 worker threads
+2024-09-16 16:18:15,200  INFO [  0%] raft Resuming generation from chunk 228/545 and 1100 questions
+2024-09-16 16:20:44,209  INFO [  0%] env_config Resolved OpenAI env vars with 'COMPLETION' prefix:
+2024-09-16 16:20:44,209  INFO [  0%] env_config  - OPENAI_API_KEY=...........................................................................................GkoA
+2024-09-16 16:20:44,227  INFO [  0%] raft Using checkpoint chunks /Users/irinejuliet/Desktop/CPSC 490/gorilla/raft/output-checkpoints/chunks
+2024-09-16 16:20:44,238  INFO [  0%] raft Using system prompt key gpt
+2024-09-16 16:20:44,238  INFO [  0%] raft Using 2 worker threads
+2024-09-16 16:20:44,510  INFO [  0%] raft Resuming generation from chunk 228/545 and 1100 questions
+2024-09-16 16:24:21,861  INFO [  0%] env_config Resolved OpenAI env vars with 'COMPLETION' prefix:
+2024-09-16 16:24:21,861  INFO [  0%] env_config  - OPENAI_API_KEY=...........................................................................................GkoA
+2024-09-16 16:24:21,911  INFO [  0%] raft Using checkpoint chunks /Users/irinejuliet/Desktop/CPSC 490/gorilla/raft/output-checkpoints/chunks
+2024-09-16 16:24:21,922  INFO [  0%] raft Using system prompt key gpt
+2024-09-16 16:24:21,922  INFO [  0%] raft Using 2 worker threads
+2024-09-16 16:24:22,201  INFO [  0%] raft Resuming generation from chunk 228/545 and 1100 questions
+2024-09-16 16:24:22,372  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.775138 seconds
+2024-09-16 16:24:22,375  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.996782 seconds
+2024-09-16 16:59:03,893  INFO [  0%] raft Consumed 543763 prompt tokens, 279596 completion tokens, 823359 total tokens
+2024-09-16 16:59:04,648  INFO [  0%] raft Generated 2633 question/answer/CoT/documents samples
+2024-09-16 16:59:04,648  INFO [  0%] raft Dataset saved to /Users/irinejuliet/Desktop/CPSC 490/gorilla/raft/output
+2024-09-16 16:59:04,648  INFO [  0%] raft Done in 2082.79s
+2024-09-27 12:20:36,665  INFO [  0%] env_config Resolved OpenAI env vars with 'COMPLETION' prefix:
+2024-09-27 12:20:36,688  INFO [  0%] raft Using checkpoint chunks /Users/irinejuliet/Desktop/CPSC 490/gorilla/raft/output-checkpoints/chunks
+2024-09-27 12:20:36,688  INFO [  0%] raft Retrieving chunks from /Users/irinejuliet/Desktop/raft_datasets/raft_data.pdf of type pdf using the text-embedding-ada-002 model.
+2024-09-27 12:20:36,688  INFO [  0%] env_config Resolved OpenAI env vars with 'EMBEDDING' prefix:
+2024-09-27 12:24:38,199  INFO [  0%] env_config Resolved OpenAI env vars with 'COMPLETION' prefix:
+2024-09-27 12:24:38,199  INFO [  0%] env_config  - OPENAI_API_KEY=...........................................................................................GkoA
+2024-09-27 12:24:38,217  INFO [  0%] raft Using checkpoint chunks /Users/irinejuliet/Desktop/CPSC 490/gorilla/raft/output-checkpoints/chunks
+2024-09-27 12:24:38,217  INFO [  0%] raft Retrieving chunks from /Users/irinejuliet/Desktop/raft_datasets/raft_data.pdf of type pdf using the text-embedding-ada-002 model.
+2024-09-27 12:24:38,217  INFO [  0%] env_config Resolved OpenAI env vars with 'EMBEDDING' prefix:
+2024-09-27 12:24:38,217  INFO [  0%] env_config  - OPENAI_API_KEY=...........................................................................................GkoA
+2024-09-27 12:26:13,157  INFO [  0%] env_config Resolved OpenAI env vars with 'COMPLETION' prefix:
+2024-09-27 12:26:13,157  INFO [  0%] env_config  - OPENAI_API_KEY=...........................................................................................GkoA
+2024-09-27 12:26:13,177  INFO [  0%] raft Using checkpoint chunks /Users/irinejuliet/Desktop/CPSC 490/gorilla/raft/output-checkpoints/chunks
+2024-09-27 12:26:13,178  INFO [  0%] raft Retrieving chunks from /Users/irinejuliet/Desktop/raft_datasets/raft_data.pdf of type pdf using the text-embedding-ada-002 model.
+2024-09-27 12:26:13,178  INFO [  0%] env_config Resolved OpenAI env vars with 'EMBEDDING' prefix:
+2024-09-27 12:26:13,178  INFO [  0%] env_config  - OPENAI_API_KEY=...........................................................................................GkoA
+2024-09-27 12:26:44,833  INFO [  0%] env_config Resolved OpenAI env vars with 'COMPLETION' prefix:
+2024-09-27 12:26:44,833  INFO [  0%] env_config  - OPENAI_API_KEY=...........................................................................................GkoA
+2024-09-27 12:26:44,853  INFO [  0%] raft Using checkpoint chunks /Users/irinejuliet/Desktop/CPSC 490/gorilla/raft/output-checkpoints/chunks
+2024-09-27 12:26:44,853  INFO [  0%] raft Retrieving chunks from /Users/irinejuliet/Desktop/raft_datasets/raft_data.pdf of type pdf using the text-embedding-ada-002 model.
+2024-09-27 12:26:44,853  INFO [  0%] env_config Resolved OpenAI env vars with 'EMBEDDING' prefix:
+2024-09-27 12:26:44,853  INFO [  0%] env_config  - OPENAI_API_KEY=...........................................................................................GkoA
+2024-09-27 12:27:34,097  INFO [  0%] raft Using system prompt key gpt
+2024-09-27 12:27:34,099  INFO [  0%] raft Using 2 worker threads
+2024-09-27 12:29:41,006  INFO [  0%] env_config Resolved OpenAI env vars with 'COMPLETION' prefix:
+2024-09-27 12:29:41,006  INFO [  0%] env_config  - OPENAI_API_KEY=...........................................................................................GkoA
+2024-09-27 12:29:41,025  INFO [  0%] raft Using checkpoint chunks /Users/irinejuliet/Desktop/CPSC 490/gorilla/raft/output-checkpoints/chunks
+2024-09-27 12:29:41,044  INFO [  0%] raft Using system prompt key gpt
+2024-09-27 12:29:41,044  INFO [  0%] raft Using 2 worker threads
+2024-09-27 12:29:41,068  INFO [  0%] raft Resuming generation from chunk 11/1249 and 44 questions
+2024-09-27 12:30:51,641  INFO [  0%] env_config Resolved OpenAI env vars with 'COMPLETION' prefix:
+2024-09-27 12:30:51,641  INFO [  0%] env_config  - OPENAI_API_KEY=...........................................................................................GkoA
+2024-09-27 12:30:51,660  INFO [  0%] raft Using checkpoint chunks /Users/irinejuliet/Desktop/CPSC 490/gorilla/raft/output-checkpoints/chunks
+2024-09-27 12:30:51,675  INFO [  0%] raft Using system prompt key gpt
+2024-09-27 12:30:51,675  INFO [  0%] raft Using 2 worker threads
+2024-09-27 12:30:51,705  INFO [  0%] raft Resuming generation from chunk 15/1249 and 62 questions
+2024-09-27 12:37:46,362  INFO [  0%] env_config Resolved OpenAI env vars with 'COMPLETION' prefix:
+2024-09-27 12:37:46,362  INFO [  0%] env_config  - OPENAI_API_KEY=...........................................................................................GkoA
+2024-09-27 12:37:46,422  INFO [  0%] raft Using checkpoint chunks /Users/irinejuliet/Desktop/CPSC 490/gorilla/raft/output-checkpoints/chunks
+2024-09-27 12:37:46,439  INFO [  0%] raft Using system prompt key gpt
+2024-09-27 12:37:46,439  INFO [  0%] raft Using 2 worker threads
+2024-09-27 12:37:46,467  INFO [  0%] raft Resuming generation from chunk 15/1249 and 62 questions
+2024-09-27 13:49:34,650  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.807406 seconds
+2024-09-27 13:50:11,556  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.829604 seconds
+2024-09-27 14:08:42,510  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.962177 seconds
+2024-09-27 15:27:52,754  INFO [  0%] raft Consumed 2604293 prompt tokens, 1051861 completion tokens, 3656154 total tokens
+2024-09-27 15:44:54,624  INFO [  0%] env_config Resolved OpenAI env vars with 'COMPLETION' prefix:
+2024-09-27 15:44:54,624  INFO [  0%] env_config  - OPENAI_API_KEY=...........................................................................................GkoA
+2024-09-27 15:44:54,660  INFO [  0%] raft Using checkpoint chunks /Users/irinejuliet/Desktop/CPSC 490/gorilla/raft/output-checkpoints/chunks
+2024-09-27 15:44:54,687  INFO [  0%] raft Using system prompt key gpt
+2024-09-27 15:44:54,687  INFO [  0%] raft Using 2 worker threads
+2024-09-27 15:44:56,827  INFO [  0%] raft Resuming generation from chunk 1249/1249 and 4826 questions
+2024-09-27 15:44:57,849  INFO [  0%] raft Consumed 0 prompt tokens, 0 completion tokens, 0 total tokens
+2024-09-27 15:46:44,197  INFO [  0%] env_config Resolved OpenAI env vars with 'COMPLETION' prefix:
+2024-09-27 15:46:44,198  INFO [  0%] env_config  - OPENAI_API_KEY=...........................................................................................GkoA
+2024-09-27 15:46:44,218  INFO [  0%] raft Using checkpoint chunks /Users/irinejuliet/Desktop/CPSC 490/gorilla/raft/output-checkpoints/chunks
+2024-09-27 15:46:44,233  INFO [  0%] raft Using system prompt key gpt
+2024-09-27 15:46:44,233  INFO [  0%] raft Using 2 worker threads
+2024-09-27 15:46:46,235  INFO [  0%] raft Resuming generation from chunk 1249/1249 and 4826 questions
+2024-09-27 15:46:47,257  INFO [  0%] raft Consumed 0 prompt tokens, 0 completion tokens, 0 total tokens
+2024-09-27 15:46:49,126  INFO [  0%] raft Generated 4826 question/answer/CoT/documents samples
+2024-09-27 15:46:49,126  INFO [  0%] raft Dataset saved to /Users/irinejuliet/Desktop/CPSC 490/gorilla/raft/output
+2024-09-27 15:46:49,127  INFO [  0%] raft Done in 4.93s
+2024-09-27 15:48:09,283  INFO [  0%] env_config Resolved OpenAI env vars with 'COMPLETION' prefix:
+2024-09-27 15:48:09,283  INFO [  0%] env_config  - OPENAI_API_KEY=...........................................................................................GkoA
+2024-09-27 15:48:09,302  INFO [  0%] raft Using checkpoint chunks /Users/irinejuliet/Desktop/CPSC 490/gorilla/raft/output-checkpoints/chunks
+2024-09-27 15:48:09,321  INFO [  0%] raft Using system prompt key gpt
+2024-09-27 15:48:09,321  INFO [  0%] raft Using 2 worker threads
+2024-09-27 15:48:11,350  INFO [  0%] raft Resuming generation from chunk 1249/1249 and 4826 questions
+2024-09-27 15:48:12,377  INFO [  0%] raft Consumed 0 prompt tokens, 0 completion tokens, 0 total tokens
+2024-09-27 15:48:13,484  INFO [  0%] raft Generated 4826 question/answer/CoT/documents samples
+2024-09-27 15:48:13,485  INFO [  0%] raft Dataset saved to /Users/irinejuliet/Desktop/CPSC 490/gorilla/raft/output
+2024-09-27 15:48:13,485  INFO [  0%] raft Done in 4.20s
+2024-09-30 23:42:16,574  INFO [  0%] env_config Resolved OpenAI env vars with 'COMPLETION' prefix:
+2024-09-30 23:42:16,593  INFO [  0%] raft Using checkpoint chunks /Users/irinejuliet/Desktop/CPSC 490/gorilla/raft/output-checkpoints/chunks
+2024-09-30 23:42:16,594  INFO [  0%] raft Retrieving chunks from /Users/irinejuliet/Desktop/raft_datasets/raft_data.pdf of type pdf using the text-embedding-ada-002 model.
+2024-09-30 23:42:16,594  INFO [  0%] env_config Resolved OpenAI env vars with 'EMBEDDING' prefix:
+2024-09-30 23:43:04,639  INFO [  0%] raft Using system prompt key gpt
+2024-09-30 23:43:04,641  INFO [  0%] raft Using 2 worker threads
+2024-09-30 23:59:48,999  INFO [    ] openai._base_client Retrying request to /chat/completions in 0.965216 seconds
+2024-10-01 02:18:01,778  INFO [  0%] raft Consumed 3190460 prompt tokens, 1330199 completion tokens, 4520659 total tokens
+2024-10-01 02:18:03,922  INFO [  0%] raft Generated 6034 question/answer/CoT/documents samples
+2024-10-01 02:18:03,923  INFO [  0%] raft Dataset saved to /Users/irinejuliet/Desktop/CPSC 490/gorilla/raft/output
+2024-10-01 02:18:03,923  INFO [  0%] raft Done in 9347.35s
+2024-10-11 20:07:00,728  INFO [    ] eval Using model: Llama-2-7b-chat
+2024-10-11 20:07:00,728  INFO [    ] eval Using mode: chat
+2024-10-11 20:07:00,728  INFO [    ] eval Using prompt key: instruction
+2024-10-11 20:07:00,729  INFO [    ] eval Using answer key: answer
+2024-10-11 20:07:00,729  INFO [    ] env_config Resolved OpenAI env vars with 'EVAL' prefix:
+2024-10-11 20:40:24,002  INFO [    ] eval Using model: Llama-2-7b-chat
+2024-10-11 20:40:24,002  INFO [    ] eval Using mode: chat
+2024-10-11 20:40:24,002  INFO [    ] eval Using prompt key: instruction
+2024-10-11 20:40:24,002  INFO [    ] eval Using answer key: answer
+2024-10-11 20:40:24,002  INFO [    ] env_config Resolved OpenAI env vars with 'EVAL' prefix:
+2024-10-11 20:40:24,002  INFO [    ] env_config  - OPENAI_BASE_URL=https://Llama-2-7b-chat-ij.eastus.models.ai.azure.com
+2024-10-11 20:40:24,002  INFO [    ] env_config  - OPENAI_API_KEY=..................................................................ions
+2024-10-11 20:40:24,109  INFO [    ] eval Reading questions from: eval.jsonl
+2024-10-11 20:40:24,168  INFO [    ] eval Number of questions: 2034
+2024-10-11 20:42:38,676  INFO [    ] eval Using model: Llama-2-7b-chat
+2024-10-11 20:42:38,677  INFO [    ] eval Using mode: chat
+2024-10-11 20:42:38,677  INFO [    ] eval Using prompt key: instruction
+2024-10-11 20:42:38,677  INFO [    ] eval Using answer key: answer
+2024-10-11 20:42:38,677  INFO [    ] env_config Resolved OpenAI env vars with 'EVAL' prefix:
+2024-10-11 20:42:38,677  INFO [    ] env_config  - OPENAI_BASE_URL=https://Llama-2-7b-chat-ij.eastus.models.ai.azure.com
+2024-10-11 20:42:38,677  INFO [    ] env_config  - OPENAI_API_KEY=..................................................................ions
+2024-10-11 20:42:38,701  INFO [    ] eval Reading questions from: eval.jsonl
+2024-10-11 20:42:38,751  INFO [    ] eval Number of questions: 2034
+2024-10-11 20:45:13,704  INFO [    ] eval Using model: Llama-2-7b-chat
+2024-10-11 20:45:13,705  INFO [    ] eval Using mode: chat
+2024-10-11 20:45:13,705  INFO [    ] eval Using prompt key: instruction
+2024-10-11 20:45:13,705  INFO [    ] eval Using answer key: answer
+2024-10-11 20:45:13,705  INFO [    ] env_config Resolved OpenAI env vars with 'EVAL' prefix:
+2024-10-11 20:45:13,705  INFO [    ] env_config  - OPENAI_BASE_URL=https://Llama-2-7b-chat-ij.eastus.models.ai.azure.com
+2024-10-11 20:45:13,705  INFO [    ] env_config  - OPENAI_API_KEY=..................................................................ions
+2024-10-11 20:45:13,730  INFO [    ] eval Reading questions from: eval.jsonl
+2024-10-11 20:45:13,791  INFO [    ] eval Number of questions: 2034
+2024-10-11 20:46:18,298  INFO [    ] eval Using model: Llama-2-7b-chat
+2024-10-11 20:46:18,299  INFO [    ] eval Using mode: chat
+2024-10-11 20:46:18,299  INFO [    ] eval Using prompt key: instruction
+2024-10-11 20:46:18,299  INFO [    ] eval Using answer key: answer
+2024-10-11 20:46:18,299  INFO [    ] env_config Resolved OpenAI env vars with 'EVAL' prefix:
+2024-10-11 20:46:18,299  INFO [    ] env_config  - OPENAI_BASE_URL=https://Llama-2-7b-chat-ij.eastus.models.ai.azure.com
+2024-10-11 20:46:18,299  INFO [    ] env_config  - OPENAI_API_KEY=..................................................................ions
+2024-10-11 20:46:18,325  INFO [    ] eval Reading questions from: eval.jsonl
+2024-10-11 20:46:18,379  INFO [    ] eval Number of questions: 2034
+2024-10-11 20:50:19,396  INFO [    ] eval Using model: Llama-2-7b-chat
+2024-10-11 20:50:19,396  INFO [    ] eval Using mode: chat
+2024-10-11 20:50:19,396  INFO [    ] eval Using prompt key: instruction
+2024-10-11 20:50:19,396  INFO [    ] eval Using answer key: answer
+2024-10-11 20:50:19,396  INFO [    ] env_config Resolved OpenAI env vars with 'EVAL' prefix:
+2024-10-11 20:50:19,396  INFO [    ] env_config  - OPENAI_BASE_URL=https://Llama-2-7b-chat-ij.eastus.models.ai.azure.com
+2024-10-11 20:50:19,397  INFO [    ] env_config  - OPENAI_API_KEY=............................FcGa
+2024-10-11 20:50:19,421  INFO [    ] eval Reading questions from: eval.jsonl
+2024-10-11 20:50:19,480  INFO [    ] eval Number of questions: 2034
+2024-10-11 21:05:59,376  INFO [    ] eval Using model: Llama-2-7b-chat
+2024-10-11 21:05:59,377  INFO [    ] eval Using mode: chat
+2024-10-11 21:05:59,377  INFO [    ] eval Using prompt key: instruction
+2024-10-11 21:05:59,377  INFO [    ] eval Using answer key: answer
+2024-10-11 21:05:59,377  INFO [    ] env_config Resolved OpenAI env vars with 'EVAL' prefix:
+2024-10-11 21:05:59,377  INFO [    ] env_config  - OPENAI_BASE_URL=https://Llama-2-7b-chat-ij.eastus.models.ai.azure.com
+2024-10-11 21:05:59,377  INFO [    ] env_config  - OPENAI_API_KEY=............................FcGa
+2024-10-11 21:05:59,413  INFO [    ] eval Removing existing file: answer.jsonl
+2024-10-11 21:05:59,435  INFO [    ] eval Reading questions from: eval.jsonl
+2024-10-11 21:05:59,484  INFO [    ] eval Number of questions: 2034
+2024-10-11 21:56:16,568  INFO [    ] eval Wrote evaluation results to answer.jsonl
+2024-10-11 21:56:16,572  INFO [    ] eval total time used: 3017.082673072815
