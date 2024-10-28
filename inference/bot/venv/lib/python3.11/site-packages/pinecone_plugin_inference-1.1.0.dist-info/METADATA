@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: pinecone-plugin-inference
+Version: 1.1.0
+Summary: Embeddings plugin for Pinecone SDK
+Home-page: https://www.pinecone.io
+License: Apache-2.0
+Author: Pinecone Systems, Inc.
+Author-email: support@pinecone.io
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: pinecone-plugin-interface (>=0.0.7,<0.0.8)
+Project-URL: Documentation, https://pinecone.io/docs
+Description-Content-Type: text/markdown
+
+# Inference API plugin for python SDK
+
+## Installation
+
+The plugin is distributed separately from the core python sdk.
+
+```
+# Install the base python SDK, version 4.1.1 or higher
+pip install pinecone-client
+
+# And also the plugin functionality
+pip install pinecone-plugin-inference
+```
+
+## Usage
+
+Interact with Pinecone's Inference APIs, e.g. create embeddings (currently in preview).
+
+Models currently supported:
+- [multilingual-e5-large](https://arxiv.org/pdf/2402.05672)
+
+## Generate embeddings
+The following example highlights how to use an embedding model to generate embeddings for a list of documents and a 
+user query, with the ultimate goal of retrieving similar documents from a Pinecone index.
+
+```python
+from pinecone import Pinecone
+
+pc = Pinecone(api_key="<<PINECONE_API_KEY>>")
+model = "multilingual-e5-large"
+
+# Embed documents
+text = [
+    "Turkey is a classic meat to eat at American Thanksgiving.",
+    "Many people enjoy the beautiful mosques in Turkey.",
+]
+text_embeddings = pc.inference.embed(
+    model=model,
+    inputs=text,
+    parameters={"input_type": "passage", "truncate": "END"},
+)
+
+# <<Upsert documents into Pinecone index>>
+
+# Embed query
+query = ["How should I prepare my turkey?"]
+query_embeddings = pc.inference.embed(
+    model=model,
+    inputs=query,
+    parameters={"input_type": "query", "truncate": "END"},
+)
+
+# <<Send query to Pinecone index to retrieve similar documents>>
+```
+
