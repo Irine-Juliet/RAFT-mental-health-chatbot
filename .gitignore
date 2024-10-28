@@ -2,3 +2,7 @@
 */venv/
 */raft_env/
 *.dylib
+.DS_Store
+**/.DS_Store
+inference/bot/venv/
+raft/output-checkpoints/
