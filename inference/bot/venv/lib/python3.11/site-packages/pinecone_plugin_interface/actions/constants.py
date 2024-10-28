@@ -1,1 +1,0 @@
-NAMESPACE_PACKAGE = 'pinecone_plugins'
