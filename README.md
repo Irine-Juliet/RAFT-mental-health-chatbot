@@ -43,6 +43,3 @@ A RAG-enhanced conversational support system that combines RAFT (Retrieval Augme
 - RAFT dataset generation and evaluation scripts from the original RAFT paper's implementation
 - Expert source material from established mental health authors
 - Built using HuggingFace's transformers library and LangChain
-
-## Citation
-[Citation information for RAFT paper and other key resources]
